@@ -6,7 +6,7 @@ execute some Unix commands that specified in files.
 
 The following snippets is copied from `node_t.c`. `creatGraph()` is the key function
 of this project. It can read contents from a file, create a grapg of nodes. 
-```
+```java
 int creatGraph(FILE* fp, node_t* node){
   int num_token, num_line, i, j;
   char line_buffer[BUFFER_SZIE];
